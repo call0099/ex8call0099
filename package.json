@@ -1,0 +1,26 @@
+{
+  "name": "mad9124-week8",
+  "version": "1.0.0",
+  "description": "In class exercise: Authentication with JWT",
+  "main": "app.js",
+  "scripts": {
+    "dev": "DEBUG=week8* NODE_ENV=dev PORT=3030 nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Liam Callahan",
+    "email": "mckennr@algonquincollege.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "debug": "^4.1.1",
+    "escape-html": "^1.0.3",
+    "express": "^4.16.4",
+    "express-mongo-sanitize": "^1.3.2",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.14",
+    "xss": "^1.0.3"
+  }
+}
